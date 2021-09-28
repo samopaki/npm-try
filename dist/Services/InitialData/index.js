@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.getSportsModeInitialDataService = void 0;
+exports["default"] = exports.getSportsModeInitialDataService = void 0;
 
 var _Helpers = _interopRequireDefault(require("./Helpers"));
 
@@ -37,3 +37,7 @@ var getSportsModeInitialDataService = /*#__PURE__*/function () {
 }();
 
 exports.getSportsModeInitialDataService = getSportsModeInitialDataService;
+var _default = {
+  getSportsModeInitialDataService: getSportsModeInitialDataService
+};
+exports["default"] = _default;
