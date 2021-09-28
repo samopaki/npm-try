@@ -1,9 +1,10 @@
-import { getAllModels } from './Model'
+// import { getAllModels } from './Model'
+import services from './Services'
 
 // don't polute global object execute immedietly
 const initializeMiddleware = () => ({
   name: 'SportsModeMiddleware',
-  modules: getAllModels()
+  services
 })
 
 const middleware = initializeMiddleware()

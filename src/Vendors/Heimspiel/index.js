@@ -1,7 +1,7 @@
 import endpoints, { BASE_ROUTE } from './endpoints'
-import API from '../../API'
+import MiddlewareAxiosInstance from '../../axios.config'
 
-const { axios: { get } } = API
+const { axios: { get } } = MiddlewareAxiosInstance
 
 export default {
   data: {
