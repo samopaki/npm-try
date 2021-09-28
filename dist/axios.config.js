@@ -7,7 +7,7 @@ exports["default"] = exports.MiddlewareAxiosInstance = void 0;
 
 var _axios = _interopRequireDefault(require("axios"));
 
-var _time = require("../../utils/time");
+var _time = require("./Utils/time");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 

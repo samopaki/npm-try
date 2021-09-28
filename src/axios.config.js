@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { specifyNumberOfSeconds } from '../../utils/time'
+import { specifyNumberOfSeconds } from './Utils/time'
 
 export const MiddlewareAxiosInstance = axios.create()
 MiddlewareAxiosInstance.defaults.timeout = specifyNumberOfSeconds({ numberOfSeconds: 10 })

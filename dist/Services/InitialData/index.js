@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.getSportsModeInitialDataService = void 0;
 
-var _Helpers = _interopRequireDefault(require("../Helpers"));
+var _Helpers = _interopRequireDefault(require("./Helpers"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
